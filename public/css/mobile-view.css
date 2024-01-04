@@ -1,0 +1,483 @@
+nav.tabs-login {
+    width: 800px;
+    transform: translateX(23.1%);
+}
+
+#listing-house-details .description .home-desc {
+    word-wrap: break-word;
+}
+
+#show-search {
+    display: none;
+}
+
+@media only screen and (max-width: 420px) {
+
+    .menu {
+        background-color: #10ac84;
+        top:95px;
+    }
+
+    .page-menu li a {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .registration {
+        height: 0;
+        padding-bottom: 0;
+    }
+
+    .join-us {
+        width: 80%;
+    }
+
+    .join-us .join-us-link {
+        border: 2px solid #fff;
+        padding: 0.5rem 0;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .join-us .join-us-link .bx-user {
+        font-size: 1.2rem;
+    }
+
+    nav.tabs-login {
+        display: none;
+    }
+
+    .tabs-login {
+        transform: translateX(0) !important;
+    }
+
+    .login-navbar-section .box-area {
+        width: 100%;
+        transform: translate(0);
+    }
+
+    .sign-up-box-area {
+    width: 105% !important;
+    transform: translate(0) !important;
+    }
+
+    .header-text {
+        margin-bottom: 0 !important;
+    }
+
+    .header-text h2 {
+        font-size: 1.8rem;
+    }
+
+    .header-text p {
+        margin-bottom: .5rem;
+    }
+
+    .login-btn{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    .login-navbar-section .sign-up-box-area {
+        padding: 1rem 3.5rem 1rem !important;
+    }
+
+    .hero-wrapper {
+        height: 100vh;
+        background-color: rgba(0, 0,0, 0.5)
+    }
+
+    .get-started {
+        padding: .8rem !important;
+        font-size: 1rem;
+        color: #eee;
+    }
+
+    .hero .home-search-property {
+        padding: 1rem;
+    }
+
+    .page-header .header-wrapper {
+        transform: translateY(100%);
+    }
+
+    #search-section .search_by {
+        position: fixed;
+        top: 95px;
+        left: 0;
+        z-index: 99;
+        padding: 0;
+    }
+
+
+    #show-search {
+        display: block;
+    }
+
+    #show-search .fa-magnifying-glass {   
+        font-size: 2rem;
+        color: #303441;
+        position: fixed;
+        top: 5%;
+        right: 20%;
+        z-index: 999;
+    }
+
+    .team-item img {
+        height: 200px;
+    }
+
+    #search-section .search_by .form-select, .search-property-input{
+        padding: .5rem !important;
+    }
+
+    #search-section .search_by .form-select option {
+        font-size: 0.8rem;
+        padding: 0;
+       
+    }
+
+    #search-section .search_by .btn-search-property {
+        padding: .5rem;
+    }
+
+
+
+    #home h1.hero-h1 {
+        font-size: 2rem;
+        color: #eee;
+    }
+
+    #home h1.hero-h1 .text-main-color{
+        font-size: 2rem;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    .title p {
+        color: #eee;
+    }
+    
+
+    #nav-tabContent {
+        padding: 0 !important;
+    }
+
+    .box-area {
+        margin: 0;
+        
+    } 
+
+    header#home {
+      width: 100%;
+    }
+
+    .hero-image {
+        right: 0;
+    }
+
+    .page-header {
+        height: 200px;
+    }
+
+    .page-header .header-wrapper h2 {
+        font-size: 1.8rem;
+    }
+
+    #property-agent .team-item {
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+
+    #property-agent .team-item img {
+        height: 180px !important;
+        width: 100% !important;
+    }
+
+    .our-services {
+        padding: 0 1rem;
+    }
+
+    .our-services .column {
+        max-width: 100%;
+    }
+    
+    .our-services .card {
+        width: 250px;
+        height: 280px;
+    }
+
+    .our-services .icon-wrapper {
+        margin: 0 auto;
+        height: 1.5em;
+        width: 1.5em;
+    }
+
+    .our-services .icon-wrapper i {
+        font-size: 0.8em;
+    }
+
+    section#our-team {
+        padding:0;
+    }
+
+    #our-team .card {
+        padding: 0;
+        padding-top: 1.2rem;
+        height: 60%;
+    }
+
+    #our-team .card__image {
+        width: 6em;
+        height: 6em;
+        margin-bottom: 0;
+    }
+
+    #our-team .card__text {
+        font-size: 0.9rem;
+        margin: 0 1rem;
+        margin-top: 0.5rem;
+    }
+
+    #listing-page-container .house-img {
+        height: 200px;
+    }
+
+    #listing-page-container .house-img .property-for-sell {
+        width: 20%;
+    
+    }
+
+    #listing-page-container .house-info {
+        padding: 3rem 1rem 0;
+        display: block;
+    }
+
+    #listing-page-container .house-info h3 {
+        font-size: 1rem;
+    }
+
+    #listing-page-container .house-info .listing-price-view {
+        position: absolute;
+        top: -0.6rem;
+        left: 1rem;
+    } 
+
+    #listing-house-details .single-property-type {
+        width: 27%;
+    }
+
+    #listing-house-details .single-property-is-sold {
+        width: 12%;
+    }
+
+    #listing-house-details .location-title,
+    #listing-house-details .single-property-price p {
+        font-size: 1.2rem;
+    }
+
+    #listing-house-details .listing-single-info3 {
+        padding: 1rem;
+    }
+
+    #listing-house-details .listing-single-info3 .included-text p {
+        font-size: 0.7rem;
+    }
+
+    #listing-house-details .listing-single-gallery {
+        display: block;
+        height: auto;
+    }
+
+    #listing-house-details .listing-single-gallery a > img {
+        height: 200px;
+        margin-bottom: 0.5rem;
+    }
+
+    #listing-house-details .get-in-touch-with-seller-form {
+        padding: 0;
+    }
+
+    #listing-house-details .get-in-touch-with-seller-form {
+        display: block;
+    }
+
+    #listing-house-details .get-in-touch-with-seller-form .input-wrapper {
+        border-bottom: 2px solid var(--main-color);
+    }
+    
+    #listing-house-details .get-in-touch-with-seller-form .input-wrapper .property-input {
+        width: 100%;
+    }
+    
+
+    #listing-house-details .description h3,
+    #listing-house-details .map h2 {
+        font-size: 1.2rem;
+    }
+
+    #listing-house-details .description {
+        padding: 2rem 0;
+        width: 100%;
+    }
+
+    
+
+    #listing-house-details .map p span {
+        left: 10rem;     
+        word-wrap: break-word;
+    }
+
+    #listing-house-details .map {
+        height: 500px;
+        position: relative;
+        margin-bottom: 0;
+    }
+
+    #listing-house-details .map h3 {
+        position: absolute;
+        bottom: 0;
+        font-size: 1.2rem;
+    }
+    
+    #listing-house-details .amenities ul {
+        grid-template-columns: repeat(2,1fr);
+        word-wrap: break-word;
+        
+    }
+
+    #listing-house-details .amenities ul li{
+        font-size: .8rem;
+    }
+
+    #listing-house-details .amenities img {
+        width: 18px;
+        height: 18px;
+    }
+
+    #listing-house-details .amenities h2,
+    #listing-house-details .hosted-by h2{
+        font-size: 1.2rem;
+    }
+
+    #listing-house-details .hosted-by {
+        padding: 1rem 0;
+    }
+
+    #listing-house-details .hosted-by img {
+        width: 60px;
+    }
+
+    #listing-house-details .hosted-by p {
+        font-size: 0.7rem;
+    }
+
+    .nav-user-profile img.user-profile-icon {
+        height: 80px;
+        width: 80px;
+    }
+
+    #home .nav-user-profile {
+        height: 40%;
+    }
+
+    #home .nav-user-profile .dropdown-menu.show {
+        transform: translate3d(-147px, -210px, 0px) !important;
+    }
+
+    #home .nav-user-profile .dropdown-menu {
+        width: 370px !important;
+        height: 200px;
+        padding: 0.5rem 0 !important;
+    }
+
+    #home .nav-user-profile .dropdown-menu img.user-profile-icon {
+        height: 60px;
+        width: 60px;
+    }
+
+    #home .nav-user-profile .dropdown-menu hr {
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+
+    #home .nav-pages .dropdown-item, #home .nav-user-profile .dropdown-item {
+        padding: 0;
+        padding-bottom: 0.5rem;
+    }
+
+    #user-account .profile-tab-nav {
+        min-height: 0;
+        padding-top: 2rem;
+        padding-bottom: 0;
+    }
+    
+    #user-account .main-dashboard {
+        display: block;
+    }
+
+    #user-account .main-dashboard img{
+        height: 30%;
+    }
+
+    #user-account .main-dashboard {
+        display: block;
+    }
+
+    #user-account .btn-main {
+        width: 100%;
+    }
+
+    #new-property-validation, #edit-property-validation, #user-password-validation, #user-info-validation {
+        width: 80%;
+        top: 1.5%;
+    }
+
+    #user-account h5 {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    #user-account .user-listed-property-img {
+        height: 40%;
+    }
+
+    #user-account .user-listed-property-info p,
+    #user-account .user-listed-property-info h5  {
+        font-size: 0.8rem;
+    }
+    
+    #user-account .btn-main.new-property {
+        width: 40%;
+        top: 110%;
+        font-size: 0.8rem;
+    }
+
+    #user-account .user-listed-property-wrapper .dropdown-menu.show {
+        transform: translate3d(0, -50px, 0px) !important;
+    }
+
+    #user-account .form-group {
+        margin-bottom: 0.8rem;
+    }
+
+    #user-account #user-change-pass-btn {
+        margin-bottom: 0.8rem;
+    }
+
+    #user-password-validation {
+        top: 16%;
+    }
+
+    #user_settings_form .btn-main {
+        margin-bottom: 0.8rem;
+    }
+    
+}

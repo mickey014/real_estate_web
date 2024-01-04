@@ -1,0 +1,281 @@
+#alert-missing-fields {
+    
+    margin-bottom: 0;
+    padding: 1rem 2rem;
+}
+
+#alert-missing-fields ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#alert-missing-fields ul li {
+    color: var(--dark-color);
+    font-weight: 600;
+}
+
+#alert-missing-fields.activate-email-wrapper {
+    border-bottom: 1px solid #bbb;
+    border-radius: 0;
+}
+
+#alert-missing-fields .activate-email .activate_email_btn{
+    font-weight: 500;
+    padding: 0;
+    margin-bottom: .1rem;
+}
+
+#alert-missing-fields .activate-email a:hover{
+    color: var(--main-color);
+}
+
+#alert-missing-fields .close {
+    color: var(--dark-color);
+}
+
+
+
+#user-account h4 {
+    color: var(--dark-color);
+    font-size: 1.2rem;
+}
+
+#user-account h5{
+    color: var(--dark-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#user-account h3, 
+#user-account h3{
+    font-size: 1.85rem;
+}
+
+#user-account .profile-tab-nav {
+	min-width: 380px;
+    min-height: 700px;
+    padding: 3rem 0;
+    background-color: #F7F8FA;
+}
+
+
+#user-account .profile-tab-nav .avatar #change_profile_pic {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#user-account .tab-content {
+    flex: 1;
+    padding: 0 1rem;
+    margin-top: 3rem;
+}
+
+#user-account .form-group {
+	margin-bottom: 1.5rem;
+}
+
+#user-account label {
+    color: var(--dark-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+#user-account input,#user-account select,
+#user-account textarea {
+    background-color: #f1f1f1;
+}
+
+
+#user-account .nav-pills a.nav-link.active {
+    background-color: var(--main-color);
+    font-weight: 500;
+}
+
+#user-account .nav-pills a.nav-link.active:hover {
+    color: #fff;
+}
+
+
+#user-account .nav-pills a.nav-link {
+	padding: 15px 20px;
+	border-bottom: 1px solid #ddd;
+	border-radius: 0;
+    font-size: 1rem;
+}
+
+#user-account .nav-pills a.nav-link:hover {
+    color: var(--main-color);
+}
+
+#user-account .nav-pills a.nav-link i {
+	font-size: 1.2rem;
+}
+
+#user-account .img-circle img {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	border: 5px solid #fff;
+}
+
+#user-account .btn-main {
+    background-color: var(--main-color);
+    color: #fff;
+    width: 20%;
+    font-weight: 500;
+}
+
+#user-account .btn-main:hover {
+    opacity: .9;
+    transition: all 300ms ease-in-out;
+}
+
+#user-account .user-new-property-wrapper {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+#user-account .btn-main.new-property {
+    position: absolute;
+    top: .2rem;
+    right: 0;
+    
+}
+
+#user-account .sell-property {
+    margin-bottom: 1rem;
+}
+
+#user-account .sell-property button {
+    background-color: #fff;
+    border: 1px solid var(--main-color);
+    font-size: .8rem;
+    padding: .5rem;
+    border-radius: 40px;
+    font-weight: 500;
+}
+
+#user-account .sell-property button:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+#user-account .main-dashboard {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#user-account .main-dashboard .property {
+    text-align: center;
+}
+
+#user-account .main-dashboard img {
+    height: 40%;
+}
+
+#user-account .main-dashboard .property h4 {
+    color: var(--dark-color);
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+#user-account .main-dashboard .property p {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#user-account .user-listed-property-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    grid-gap: 1rem;
+}
+
+#user-account .user-listed-property {
+    height: 220px;
+    border-bottom: 0;
+}
+
+
+#user-account .user-listed-property-img {
+    height: 60%;
+    overflow: hidden;
+}
+
+#user-account .user-listed-property-img img{
+    /* height: 100%; */
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 400ms linear;
+}
+
+#user-account .user-listed-property-img img:hover {
+    transform: scale(1.1);
+}
+#user-account .user-listed-property-info {  
+    border: 1px solid #ccc;
+    padding: .5rem .5rem 0;
+    position: relative;
+    height: 100px;
+}
+
+
+#user-account .user-listed-property-info a.options {
+    text-decoration: none;
+    color: var(--dark-color);
+    font-size: 1.2rem;
+    position: absolute;
+    right: .8rem;
+    bottom: .4rem;
+}
+
+#user-account .user-listed-property-info .dropdown-toggle::after {
+    display:none;
+}
+  
+#edit-property
+/* New property */
+#user-account #add-new-property hr,
+#user-account #edit-property hr {
+    height: 2px;
+    background-color: #f1f1f1;
+}
+
+
+
+#user-account #add-new-property .close,
+#user-account #edit-property .close {
+    color: var(--dark-color);
+    opacity: 1;
+    border: 0;
+    margin-top: 1px;
+}
+
+#user-account #add-new-property .close i,
+#user-account #edit-property .close i {
+    font-size: 1.8rem;
+}
+
+#user-account #edit-property #property-type-label {
+    display: block;
+}
+
+#user-account #edit-property  .property-type-btn {
+    border: 1px solid var(--main-color);
+    padding: .5rem;
+    margin-bottom: .2rem;
+    font-size: .7rem;
+    background-color: transparent;
+}
+
+#user-account #edit-property  .property-type-btn:hover,
+#user-account #edit-property  .property-type-btn:active,
+#user-account #edit-property  .property-type-btn.active {
+    background-color: var(--main-color);
+    color: #fff;
+}

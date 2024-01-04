@@ -1,0 +1,265 @@
+
+#search-section .search_by{
+    background-color: var(--main-color);
+    padding: 1rem;
+}
+#listing-page-container {
+    display: flex;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#listing-page-container .left-col {
+    font-weight: 600;
+}
+
+#listing-page-container .count-status-property-location p{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+#listing-page-container .count-status-property-location p span {
+    font-weight: 500;
+}
+
+#listing-page-container .left-col h1{
+    margin-bottom: 0;
+}
+
+#listing-page-container .left-col h5 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--dark-color);
+    margin-bottom: 2rem;
+}
+
+#listing-page-container .left-col h5 span { 
+    font-weight: 400;
+}
+
+#listing-page-container h1 {
+    font-weight: 600;
+}
+
+#listing-page-container .house {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    margin-bottom: 4rem;
+}
+
+#listing-page-container .house-img {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    background-color: rgba(0,0,0,.3);
+  background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#listing-page-container .house-img img.proprety-img {
+    width: 100%;
+    
+}
+
+#listing-page-container .house-img .property-featured,
+#listing-page-container .house-img .property-for-sell  {
+  position: absolute;
+  padding: .5rem 1rem;
+  text-transform: capitalize;
+  border-radius: 40px;
+  color: #fff;
+  font-size: .9rem;
+  font-weight: bold;
+}
+
+#listing-page-container .house-img .property-featured {
+    bottom: 1rem;
+    left: 6rem;
+    background-color: var(--main-color);
+}
+#listing-page-container .house-img .property-for-sell {
+    bottom: 1rem;
+    left: 1rem;
+    width: 10%;
+    background-color: #DC3545;
+    text-align: center;
+}
+
+#listing-page-container .house-img .listing-property-user {
+    background-color: #fff;
+    padding: .5rem;
+    position: absolute;
+    bottom: -2.5rem;
+    right: .5rem;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+#listing-page-container .house-img .listing-property-user .listing-property-user-img{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+#listing-page-container .house-img h2 {
+    font-size: 5rem;
+    font-weight: 400;
+    color: #fff;
+    transform: rotate(-20deg);
+    position: absolute;
+    bottom: 30%;
+    left: 30%;
+}
+
+#listing-page-container .house-img .sold-out {
+    height: 40%;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+}
+
+
+#listing-page-container .house-info {
+    padding: 2.2rem 1rem;
+    padding-bottom: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+#listing-page-container .house-info h3 {
+    font-weight: 600;
+    font-size: 1.3rem;
+    flex-basis: 70%;
+}
+
+#listing-page-container .house-info .price {
+    display: flex;
+    flex-basis: 10%;
+    text-overflow: clip;
+}
+
+#listing-page-container .house-info .previous-price {
+    text-decoration: line-through;
+    font-size: .9rem;
+    color: #888;
+    font-weight: 500;
+    margin-right: .5rem;
+    margin-top: .4rem;
+    
+}
+
+
+
+#listing-page-container .house-info .listing-price-monthly {
+    color: #888;
+    flex-basis: 10%;
+}
+
+#listing-page-container .house-info .listing-price-view {
+    border: 1px solid #888;
+    border-radius: 28px;
+    padding: .5rem;
+    flex-basis: 5%;
+    margin-top: 1rem;
+}
+
+#listing-page-container .house-info .listing-price-view .fa-eye {
+    font-size: 1.3rem;
+    color: #888;
+}
+
+#listing-page-container .house-info .house-info-posted-by {
+    font-weight: 500;
+    font-size: .9rem; 
+    margin-top: .2rem;
+    color: #888;
+}
+
+#listing-page-container .house-info2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 1rem 0;
+}
+
+#listing-page-container .house-info2 p {
+    margin-right: 1.2rem;
+    color: #888;
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+#listing-page-container .house-info2 p .uil {
+    font-size: 1.2rem;
+}
+#listing-page-container .right-col {
+    height: auto;
+}
+
+#listing-page-container .sidebar h2 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    margin-top: -.4rem;
+}
+
+#listing-page-container .sidebar hr.line1 {
+    width: 40%;
+    background-color: var(--main-color);
+    height: 2px;
+    border-radius: 50px;
+}
+#listing-page-container .sidebar hr.line2 {
+    width: 30%;
+    background-color: var(--main-color);
+    height: 2px;
+    border-radius: 50px;
+    margin-bottom: 1.5rem;
+}
+#listing-page-container .sidebar .sidebar-featured-prop {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+}
+#listing-page-container .sidebar .sidebar-featured-prop img {
+    height: 80px;
+    width: 110px;
+    margin-right: 1rem;
+}
+#listing-page-container .pagination-wrapper .page-link {
+    color: var(--dark-color);
+    box-shadow: none;
+}
+#listing-page-container .pagination-wrapper .page-item.active .page-link {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    font-weight: 500;
+    color: #fff;
+    
+}
+
+#listing-page-container .sidebar .sidebar-featured-prop h3  {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+#listing-page-container .sidebar .sidebar-featured-prop p  {
+    color: #888;
+    font-size: .8rem;
+    margin-bottom: 0;
+}
+
+#listing-page-container .sidebar .recently-added-h2 {
+    margin-top: 5rem;
+}
+
+
+

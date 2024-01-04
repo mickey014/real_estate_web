@@ -1,0 +1,203 @@
+/*  
+    Created on : 05 June 2023
+    Author     : Tiego Masemola | Hashbrown_CWA
+    https://cw-arts.netlify.app/about-us
+*/
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+/* GALLERY STYLING */
+.image-container{
+    width: 100%;
+    height: auto;
+    background-color: #bcbcbc;
+}
+
+.gallery-image{
+    display: flex;
+    float: left;
+    margin: 5px;
+    height: 25vh;
+    width: auto;
+    background-color: red;
+}
+
+/* LIGHTBOX STYLING */
+.lightbox-overlay 
+{
+    position: fixed;
+    z-index: 100;
+    padding: 2% 0; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000000e7; /* Black w/ opacity */
+}
+
+.lightbox-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.lightbox-content img{
+    position: relative;
+    z-index: 101;
+    background-color: white;
+    transition: 5s;
+    max-height: 85vh;
+    max-width: 100vh;
+    padding: 1px;
+    margin: auto;
+    min-width: 1px;
+    min-height: 1px;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .lightbox-content img{
+        max-width: 70vh;
+    }
+}
+
+/*Mobile*/
+@media screen and (max-width: 425px){
+    .lightbox-content img{
+        max-width: 50vh;
+    }
+}
+
+/* The Close Button */
+.close 
+{
+    background-color: transparent;
+	border: none;
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.5s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close:hover, .close:focus 
+{
+    color: #adb5bd;
+}
+
+.index-counter{
+    position: absolute;
+    color: white;
+    top: 10px;
+    z-index: 103;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 5px;
+    margin: auto;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.desc{
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    padding: 5px;
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.lightbox-content .image-loader {
+    position: absolute;
+    z-index: 102;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    border: 10px solid #616336;
+    border-top-color: white;
+    animation: spin 1s linear infinite;
+}
+  
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .index-counter{
+        font-size: 18px;
+    }
+
+    .lightbox-content img{
+        max-height: 80vh;
+    }
+}
+
+/*Mobile*/
+@media screen and (max-width: 425px){
+    .lightbox-content img{
+        max-height: 75vh;
+    }
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    z-index: 102;
+    color: #212529;
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.6s ease;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: #adb5bd;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev{
+    left: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .prev, .next {
+        font-size: 25px;
+    }
+}
+
+/*Mobile*/
+@media screen and (max-width: 425px){
+    .prev, .next {
+        font-size: 20px;
+    }
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: #212529;
+    color: #adb5bd;
+}
